@@ -1,0 +1,14 @@
+configuration {
+	font: "System San Francisco Display 14";
+	
+	hide-scrollbar: true;
+	lines: 5;
+	bw: 0;
+	eh: 2;
+	
+	color-normal: "argb:00141b36,   argb:FFead9e6, argb:00141b36, argb:FF8c86b8, argb:FFead9e6";
+	color-urgent: "argb:006E8BC6,   argb:FFead9e6, argb:00141b36, argb:FFd699b7, argb:FFead9e6";
+	color-active: "argb:008C86B8,   argb:FFead9e6, argb:00141b36, argb:FF6e8bc6, argb:FF8C86B8";
+	color-window: "argb:C0141b36,   argb:E0141b36,         argb:E0141b36";
+}
+/* vim:ft=css
