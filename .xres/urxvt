@@ -1,0 +1,32 @@
+#define terminalFontSize 10
+
+! !! Perl Extensions !!
+URxvt.perl-ext-common: default, matcher, font-size
+
+! !! Aesthetics !!
+URxvt.scrollBar: false
+URxvt.internalBorder: 24
+URxvt.cursorBlink: true
+URxvt.cursorUnderLine: false
+
+! Colour
+
+! Font
+URxvt.font: xft:scientifica:size=terminalFontSize
+URxvt.boldFont: xft:scientifica:size=terminalFontSize:style=Bold
+URxvt.italicFont: xft:scientifica:size=terminalFontSize:style=Italic
+URxvt.boldItalicFont: xft:scientifica:size=terminalFontSize:style=Bold:style=Italic
+URxvt.letterSpace: 0
+URxvt.lineSpace: 2
+URxvt.font-size.step: 2
+
+! !! Clickable URLs !!
+URxvt.url-launcher: brave
+URxvt.matcher.button: 1
+URxvt.underlineURLs: true 
+
+! !! Use Ctrl+Shift+C/V for Copy/Paste !!
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+URxvt.keysym.Shift-Control-V: eval:paste_clipboard
+URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard

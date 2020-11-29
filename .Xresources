@@ -1,0 +1,4 @@
+#include ".xres/colour"
+#include ".xres/fonts"
+#include ".xres/rofi"
+#include ".xres/urxvt"

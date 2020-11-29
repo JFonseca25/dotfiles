@@ -1,0 +1,8 @@
+#define defaultFont scientifica
+
+Xft.hinting: 1
+Xft.rgba: rgb
+Xft.antialias: 1
+Xft.hintstyle: hintslight
+Xft.autohint: 0
+Xft.lcdfilter: lcddefault

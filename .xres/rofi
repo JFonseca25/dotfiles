@@ -1,0 +1,6 @@
+#define rofiFontSize 15
+
+rofi.font: defaultFont Regular rofiFontSize 
+rofi.terminal: urxvt
+rofi.ssh-client: ssh
+rofi.ssh-command: {terminal} -e {ssh-client} {host}
