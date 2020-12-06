@@ -1,22 +1,25 @@
-#define terminalFontSize 10
+#define terminalFontSize 10 
 
 ! !! Perl Extensions !!
-URxvt.perl-ext-common: default, matcher, font-size
+URxvt.perl-ext-common: default, matcher, font-size, resize-font
 
 ! !! Aesthetics !!
 URxvt.scrollBar: false
 URxvt.internalBorder: 24
 URxvt.cursorBlink: true
 URxvt.cursorUnderLine: false
+URxvt.saveLines: 2048
+URxvt.depth: 24
+URxvt.urgentOnBell: true
 
 ! Colour
 
 ! Font
-URxvt.font: xft:scientifica:size=terminalFontSize
-URxvt.boldFont: xft:scientifica:size=terminalFontSize:style=Bold
-URxvt.italicFont: xft:scientifica:size=terminalFontSize:style=Italic
-URxvt.boldItalicFont: xft:scientifica:size=terminalFontSize:style=Bold:style=Italic
-URxvt.letterSpace: 0
+URxvt.font: xft:MesloLGS NF:size=terminalFontSize
+URxvt.boldFont: xft:MesloLGS NF:size=terminalFontSize:style=Bold
+URxvt.italicFont: xft:MesloLGS NF:size=terminalFontSize:style=Italic
+URxvt.boldItalicFont: xft:MesloLGS NF:size=terminalFontSize:style=Bold:style=Italic
+URxvt.letterSpace: -1
 URxvt.lineSpace: 2
 URxvt.font-size.step: 2
 
@@ -25,8 +28,10 @@ URxvt.url-launcher: brave
 URxvt.matcher.button: 1
 URxvt.underlineURLs: true 
 
-! !! Use Ctrl+Shift+C/V for Copy/Paste !!
+! !! Keysyms !!
 URxvt.iso14755: false
 URxvt.iso14755_52: false
+URxvt.keysym.Control-Left: \033[1;5D
+URxvt.keysym.Control-Right: \033[1;5C
 URxvt.keysym.Shift-Control-V: eval:paste_clipboard
 URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
