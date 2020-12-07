@@ -13,7 +13,7 @@ set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango:scientifica 8
+font pango:scientifica 7
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -34,6 +34,7 @@ exec --no-startup-id nm-applet
 for_window[class=".*"] border pixel 0
 gaps inner 5
 gaps outer 8
+gaps top 34
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
