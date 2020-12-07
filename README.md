@@ -11,10 +11,11 @@
 - vim-airline
 - gruvbox
 
-#Fonts Used
+# Fonts Used
 - Terminal font: MesloLGS NF (https://github.com/romkatv/powerlevel10k)
 - System font: scientifica
 - Others:
 	- Unifont
 	- FontAwesome
 	- siji
+	- Material Design Icons Desktop (https://github.com/Templarian/MaterialDesign-Font)
